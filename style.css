@@ -13,6 +13,10 @@ img{
     margin: 0 auto;
 }
 
+p{
+    background-color:white;  
+}
+
 h1{
     text-align: center;
     background-color:white;
