@@ -1,23 +1,153 @@
 body{
-    background-color: #3399ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('https://www.queestudiar.org/wp-content/uploads/2017/10/software.jpg');   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
-
+  
 img{
     width: 60%;
     height: auto; 
-    border-radius: 10px; 
+    border-radius: 35px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     margin: 20px; 
     text-align: center;
     display: block;
     margin: 0 auto;
+    width:235px;height:325px
 }
 
 p{
-    background-color:white;  
+    color: black;
+    border: 5px solid black;
+    border-radius: 9px;
+    background-color: hsl(0, 0%, 100%, 0.7);
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-h1{
+
+h1, .concert-one-regular{
     text-align: center;
     background-color:white;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gallery_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery_div img {
+    width: 29%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 5px solid white;
+    border-radius: 7px;
+}
+nav {
+    background-color: white;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+iframe
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.form-container {
+    background: 	 #1aa3ff;
+    padding: 40px;
+    border-radius: 30px;
+    color: black;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.form-container h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #00c853;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00e676;
+}
+
+footer{
+background-color: #333;
+color: #fff;
+padding: 1em;
+text-align: center;
+}
+
+textarea, form{
+    text-align: center;
+}
+
+.software_div img {
+    width: 25%;
+    height: auto;
+    margin-bottom: 15px;
+    border: 5px solid white;
+    border-radius: 7px;
+}
+
+.unity_div img{
+    width: 25%;
+    height: auto;
+    margin-bottom: 25px;
+    border: 4.5px solid white;
+    border-radius: 9px;
+}
+
+.Hero_div img{
+    max-width: 95%;
+    border-radius: 25%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 4.5px solid black;
 }
